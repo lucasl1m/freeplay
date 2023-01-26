@@ -1,10 +1,11 @@
 import React from 'react';
+import { Home } from './pages/Home';
 import './styles/globals.css';
 
 export function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+	return (
+		<div className="w-screen h-screen bg-background text-white">
+			<Home />
+		</div>
+	);
 }

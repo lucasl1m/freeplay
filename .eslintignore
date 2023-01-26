@@ -1,6 +1,0 @@
-# dependencies
-/node_modules
-
-# configuration
-/tailwind.config.cjs
-/postcss.config.js
